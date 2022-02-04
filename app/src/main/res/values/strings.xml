@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PersonalFoodLog</string>
+    <string name="title_activity_meals_detail_host">MealsDetailHostActivity</string>
+    <string name="title_meals_list">Items</string>
+    <string name="title_meals_detail">Meals Detail</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Takepicture">
+
+    <Button
+        android:id="@+id/takepic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a picture"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="70dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="230dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/Accsetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Setting"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/takepic"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="230dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Accsetting"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Show Report"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/lo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Report"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Logout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/unsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lo"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Unsubscribe"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+</RelativeLayout>

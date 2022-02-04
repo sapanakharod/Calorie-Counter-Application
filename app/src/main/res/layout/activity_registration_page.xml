@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationPage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Page"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter User Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e2"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter yor e-mail"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e3"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="Re-enter your Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/goback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e4"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Go back to Login Page"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+</RelativeLayout>
